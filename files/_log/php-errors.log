@@ -1,0 +1,27 @@
+[2018-11-09 19:32:22] glpiphplog.WARNING: Test logger  
+[2018-11-12 16:19:36] glpiphplog.WARNING: Test logger  
+[2018-11-12 18:15:27] glpiphplog.WARNING: Test logger  
+[2018-11-12 20:13:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:51                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-12 20:13:20] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-12 20:13:44] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
