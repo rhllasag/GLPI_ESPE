@@ -2054,15 +2054,37 @@ class User extends CommonDBTM {
       } else {
          echo "<tr class='tab_bg_1'><td colspan='2'></td></tr>";
       }
+//Connection with Banner System
+    $host='10.1.0.113:1521/PAS8';
+    $userDB='UTIC';
+    $password='UT1C9090*';
+    $conn=oci_pconnect($userDB,$password,$host);
 
+    //$query="SELECT UZGTPERSON_NOMBRE, UZGTPERSON_CORR, UZGTTELE_NUM_TELEFONO, UZGTEXTE_NUM_EXTENSION FROM BANINST1.BZPVGUIAT WHERE ID_TERCEROS='magallardo'";
+    $query="SELECT UZGTPERSON_NOMBRE, UZGTPERSON_PUEST, UZGTPERSON_CORR,UZGTPERSON_CEDULA, UZGTTELE_NUM_TELEFONO, UZGTEXTE_NUM_EXTENSION FROM BANINST1.BZPVGUIAT WHERE ID_TERCEROS='".$this->fields['name']."'";
+    $queryResult=oci_parse($conn,$query);
+
+    @oci_execute($queryResult);
+    while (($row =oci_fetch_array($queryResult))!=false){
+        $banner_phone=$row['UZGTTELE_NUM_TELEFONO'];
+        $ext_banner=$row ['UZGTEXTE_NUM_EXTENSION'];
+        $n_banner= $row['UZGTPERSON_NOMBRE'];
+        $n_cedula=$row ['UZGTPERSON_CEDULA'];
+        $n_possition=$row ['UZGTPERSON_PUEST'];
+        $email_value=$row['UZGTPERSON_CORR'];
+    }
+    oci_close($conn);
+// End Connection Banner System
+
+      
       $surnamerand = mt_rand();
       echo "<tr class='tab_bg_1'><td><label for='textfield_realname$surnamerand'>" . __('Surname') . "</label></td><td>";
-      Html::autocompletionTextField($this, "realname", ['rand' => $surnamerand]);
+      Html::autocompletionTextField($this, "realname", ['rand' => $surnamerand,'value'=>$n_banner]);
       echo "</td></tr>";
 
       $firstnamerand = mt_rand();
       echo "<tr class='tab_bg_1'><td><label for='textfield_firstname$firstnamerand'>" . __('First name') . "</label></td><td>";
-      Html::autocompletionTextField($this, "firstname", ['rand' => $firstnamerand]);
+      Html::autocompletionTextField($this, "firstname", ['rand' => $firstnamerand,'value'=>$n_possition]);
       echo "</td></tr>";
 
       //do some rights verification
@@ -2126,7 +2148,7 @@ class User extends CommonDBTM {
       $phonerand = mt_rand();
       echo "<tr class='tab_bg_1'>";
       echo "<td><label for='textfield_phone$phonerand'>" .  __('Phone') . "</label></td><td>";
-      Html::autocompletionTextField($this, "phone", ['rand' => $phonerand]);
+      Html::autocompletionTextField($this, "phone", ['rand' => $phonerand,'value'=>$n_cedula]);
       echo "</td>";
       //Authentications information : auth method used and server used
       //don't display is creation of a new user'
@@ -2160,7 +2182,7 @@ class User extends CommonDBTM {
       $mobilerand = mt_rand();
       echo "<tr class='tab_bg_1'>";
       echo "<td><label for='textfield_mobile$mobilerand'>" . __('Mobile phone') . "</label></td><td>";
-      Html::autocompletionTextField($this, "mobile", ['rand' => $mobilerand]);
+      Html::autocompletionTextField($this, "mobile", ['rand' => $mobilerand,'value'=>$banner_phone]);
       echo "</td>";
       $catrand = mt_rand();
       echo "<td><label for='dropdown_usercategories_id$catrand'>" . __('Category') . "</label></td><td>";
@@ -2170,7 +2192,7 @@ class User extends CommonDBTM {
       $phone2rand = mt_rand();
       echo "<tr class='tab_bg_1'>";
       echo "<td><label for='textfield_phone2$phone2rand'>" .  __('Phone 2') . "</label></td><td>";
-      Html::autocompletionTextField($this, "phone2", ['rand' => $phone2rand]);
+      Html::autocompletionTextField($this, "phone2", ['rand' => $phone2rand,'value'=>$ext_banner]);
       echo "</td>";
       echo "<td rowspan='4' class='middle'><label for='comment'>" . __('Comments') . "</label></td>";
       echo "<td class='center middle' rowspan='4'>";
