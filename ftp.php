@@ -1,6 +1,6 @@
 ﻿<?php
 $file = 'fromFTP.txt';
-$remote_file = 'C:/xampp/htdocs/fromFTP.txt';
+$remote_file = '/home/ftpglpi/ftp/files/fromFTP.txt';
 $ftp_server = "10.1.0.61";
 $ftp_user_name = "ftpglpi";
 $ftp_user_pass = "ftpglpi";
