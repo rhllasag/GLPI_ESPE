@@ -24,3 +24,57 @@ Interno #1: Lanzar mailgate
 Interno #1: Lanzar session
 2018-11-12 20:10:45 [2@ufaslquticcms.espe.local]
 Interno #1: Lanzar graph
+2018-11-12 20:16:01 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar reservation
+2018-11-12 20:19:30 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar closeticket
+2018-11-12 20:50:34 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar alertnotclosed
+2018-11-12 20:50:41 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar slaticket
+2018-11-12 20:51:59 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar olaticket
+2018-11-12 20:53:41 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar planningrecall
+2018-11-12 21:04:27 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar queuednotification
+2018-11-13 08:08:10 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar ticketrecurrent
+2018-11-13 08:08:18 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar mailgate
+2018-11-13 08:08:50 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar temp
+2018-11-13 14:56:47 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar slaticket
+2018-11-13 16:05:01 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar olaticket
+2018-11-13 16:05:11 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar planningrecall
+2018-11-13 16:07:25 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar queuednotification
+2018-11-13 16:11:49 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar graph
+2018-11-13 16:18:55 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar reservation
+2018-11-13 16:43:29 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar mailgate
+2018-11-13 17:07:28 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar closeticket
+2018-11-13 18:05:10 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar alertnotclosed
+2018-11-13 18:05:19 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar ticketrecurrent
+2018-11-13 19:07:09 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar temp
+2018-11-13 19:15:27 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar slaticket
+2018-11-13 19:38:50 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar queuednotification
+2018-11-13 20:13:06 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar planningrecall
+2018-11-13 20:57:55 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar olaticket
+2018-11-13 21:04:27 [2@ufaslquticcms.espe.local]
+Interno #1: Lanzar mailgate
+2018-11-13 21:04:44 [@ufaslquticcms.espe.local]
+Interno #1: Lanzar graph

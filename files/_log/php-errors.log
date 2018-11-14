@@ -25,3 +25,281 @@
   inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
   front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
   {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-12 20:15:00] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-12 20:21:31] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_pconnect(): ORA-12546: TNS:permission denied
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2061                            oci_pconnect()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_parse() expects parameter 1 to be resource, boolean given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2065                            oci_parse()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.20Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_execute() expects parameter 1 to be resource, null given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2067                            oci_execute()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.20Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_fetch_array() expects parameter 1 to be resource, null given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2068                            oci_fetch_array()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.20Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_close() expects parameter 1 to be resource, boolean given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2076                            oci_close()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.20Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2082                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.20Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: n_possition
+  Backtrace :
+  inc/user.class.php:2087                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.20Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2151                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.003\", 2.26Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: banner_phone
+  Backtrace :
+  inc/user.class.php:2185                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.26Mio)"} 
+[2018-11-12 20:47:18] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2195                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.001\", 2.27Mio)"} 
+[2018-11-12 20:50:34] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 08:08:16] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:2557                        AuthLDAP::connectToServer()
+  inc/auth.class.php:211                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2676                        Auth->connection_ldap()
+  inc/authldap.class.php:2744                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:740                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@ufaslquticcms.espe.local"} 
+[2018-11-13 08:08:16] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:2564                        AuthLDAP::connectToServer()
+  inc/auth.class.php:211                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2676                        Auth->connection_ldap()
+  inc/authldap.class.php:2744                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:740                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@ufaslquticcms.espe.local","mem_usage":"0.001\", 1.01Mio)"} 
+[2018-11-13 13:04:15] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/auth.class.php:650                             AuthLDAP::connectToServer()
+  front/login.php:84                                 Auth->login()
+  {"user":"@ufaslquticcms.espe.local"} 
+[2018-11-13 16:05:08] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:2557                        AuthLDAP::connectToServer()
+  inc/auth.class.php:211                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2676                        Auth->connection_ldap()
+  inc/authldap.class.php:2744                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:740                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@ufaslquticcms.espe.local"} 
+[2018-11-13 16:05:08] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:2564                        AuthLDAP::connectToServer()
+  inc/auth.class.php:211                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2676                        Auth->connection_ldap()
+  inc/authldap.class.php:2744                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:740                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@ufaslquticcms.espe.local","mem_usage":"0.000\", 1.01Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_pconnect(): ORA-12546: TNS:permission denied
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2061                            oci_pconnect()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_parse() expects parameter 1 to be resource, boolean given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2065                            oci_parse()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_execute() expects parameter 1 to be resource, null given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2067                            oci_execute()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_fetch_array() expects parameter 1 to be resource, null given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2068                            oci_fetch_array()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): oci_close() expects parameter 1 to be resource, boolean given
+  Backtrace :
+  :                                                  
+  inc/user.class.php:2076                            oci_close()
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2082                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: n_possition
+  Backtrace :
+  inc/user.class.php:2087                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2151                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.003\", 2.25Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: banner_phone
+  Backtrace :
+  inc/user.class.php:2185                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.000\", 2.25Mio)"} 
+[2018-11-13 16:07:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2195                            
+  inc/commonglpi.class.php:475                       User->showForm()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ufaslquticcms.espe.local","mem_usage":"0.001\", 2.26Mio)"} 
+[2018-11-13 19:07:23] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 19:07:29] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 19:15:27] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 19:18:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 20:13:06] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
+[2018-11-13 20:57:55] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/glpi/inc/toolbox.class.php line 657
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2528                        ldap_bind()
+  inc/authldap.class.php:1404                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@ufaslquticcms.espe.local"} 
